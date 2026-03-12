@@ -5,165 +5,181 @@
 <title>Lorenzo27K Wiki</title>
 
 <style>
+
+/* GD background */
+
 body{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:linear-gradient(180deg,#6ec8ff,#3d79ff);
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+
+background-color:#2f7edb;
+background-image:
+linear-gradient(#2568b5 2px, transparent 2px),
+linear-gradient(90deg,#2568b5 2px, transparent 2px);
+background-size:80px 80px;
+
+display:flex;
+justify-content:center;
+padding:60px 0;
 }
 
-header{
-    background:#2a4b8d;
-    color:white;
-    padding:20px;
-    font-size:30px;
-    font-weight:bold;
-    text-align:center;
-    border-bottom:6px solid #1a355f;
+/* Main GD board */
+
+.board{
+
+background:#7a3f16;
+border:12px solid #43d14f;
+border-radius:10px;
+
+width:900px;
+
+padding:30px;
+
+box-shadow:
+0 10px 0 #2c9a36,
+0 0 0 6px black;
+
+color:white;
 }
 
-.container{
-    display:flex;
-}
-
-
-.sidebar{
-    width:250px;
-    background:#ffe9a6;
-    border-right:5px solid #000;
-    padding:20px;
-    box-shadow:4px 0 #d4b574;
-}
-
-.sidebar h3{
-    border-bottom:2px solid #000;
-    margin-top:0;
-}
-
-.sidebar a{
-    display:block;
-    margin:10px 0;
-    text-decoration:none;
-    color:#0645ad;
-    font-weight:bold;
-}
-
-.sidebar a:hover{
-    text-decoration:underline;
-}
-
-
-.content{
-    flex:1;
-    padding:40px;
-    background:white;
-    max-width:900px;
-}
+/* Title */
 
 h1{
-    border-bottom:3px solid #000;
-    padding-bottom:5px;
+border-bottom:3px solid #000;
+padding-bottom:5px;
 }
 
-h2{
-    border-bottom:2px solid #ccc;
+/* Links */
+
+a{
+color:#ffd800;
+text-decoration:none;
 }
+
+a:hover{
+text-decoration:underline;
+}
+
+/* References */
 
 .ref{
-    font-size:12px;
-    vertical-align:super;
+font-size:12px;
+vertical-align:super;
 }
 
-.references li{
-    margin:6px 0;
+/* Button */
+
+.backButton{
+
+display:inline-block;
+margin-bottom:20px;
+
+padding:10px 18px;
+
+background:#00ff6a;
+
+border:5px solid black;
+
+border-radius:8px;
+
+color:black;
+
+font-weight:bold;
+
+text-decoration:none;
+
+box-shadow:0 6px 0 #17913d;
+
 }
 
-footer{
-    color:red;
-    font-size:14px;
-    margin-top:40px;
-    text-align:center;
+.backButton:hover{
+transform:translateY(3px);
+box-shadow:0 3px 0 #17913d;
 }
+
 </style>
 </head>
 
 <body>
 
-<header>
-    <a href="index.html" style="color:white; text-decoration:none; float:left; font-size:20px; margin-top:5px;">⬅ Back</a>
-    Lorenzo27K Wiki
-</header>
+<div class="board">
 
-<div class="container">
+<a class="backButton" href="index.html">⬅ Back</a>
 
-<div class="sidebar">
-<h3>Navigation</h3>
-<a href="#intro">Introduction</a>
-<a href="#completions">Completions</a>
-<a href="#references">References</a>
-</div>
+<h1>Lorenzo27K Wiki</h1>
 
-<div class="content">
-
-<h1 id="intro">Introduction</h1>
+<h2>Introduction</h2>
 
 <p>
-<b>Lorenzo27K</b> <sup class="ref">[1]</sup> is a Geometry Dash YouTuber known for his insane skill
-and consistent streaming. He often streams several times a week and commonly plays extreme demons.
-He sometimes also plays other games like <i>Five Nights at Freddy’s</i> <sup class="ref">[2]</sup>
-after heavy request from his viewers.
+<b>Lorenzo27K</b> <sup class="ref">[1]</sup> is a Geometry Dash YouTuber known for his
+extreme skill and consistent streaming. He often streams multiple times a week
+and frequently plays extreme demons. Sometimes he also plays other games like
+<i>Five Nights at Freddy’s</i> <sup class="ref">[2]</sup> after viewer demand.
 </p>
 
-<h1 id="completions">Completions</h1>
+<h2>Completions</h2>
 
 <p>
-His first big milestone was beating <b>Nine Circles</b> by ZoBros <sup class="ref">[3]</sup>.
-With around 2,000 attempts and a peak heart rate of 149 BPM, he finally beat it on
-January 19th, 2025.
+Lorenzo27K reached his first big milestone when he beat
+<b>Nine Circles</b> by ZoBros <sup class="ref">[3]</sup>.
+After about 2,000 attempts with a highest heart rate of 149 BPM,
+he beat it on January 19th, 2025.
 </p>
 
 <p>
-Next he took on <b>Future Funk</b> by JonathanGD <sup class="ref">[4]</sup>.
-Over 3,000 attempts later, with a max heart rate of 201 BPM, he beat it on February 23rd, 2025.
+He later completed <b>Future Funk</b> by JonathanGD
+<sup class="ref">[4]</sup>. After more than 3,000 attempts and a
+highest heart rate of 201 BPM, he beat it on February 23rd, 2025.
 </p>
 
 <p>
-He then made a massive jump to <b>Bloodbath</b> by Riot & more <sup class="ref">[5]</sup>.
-This one was brutal: 42,000+ attempts, two mouse smashes, one headphone smash,
-and one mousepad throw.  
-Total grind time was over 70 hours, completed January 18th, 2026.
+After that he made a huge jump to <b>Bloodbath</b> by Riot and more
+<sup class="ref">[5]</sup>. It took him over 42,000 attempts,
+two mouse smashes, one headphone smash, and one thrown mousepad.
+He finally completed it on January 18th, 2026 after more than
+70 hours of playtime.
 </p>
 
 <p>
-After that, he “verified” <b>Stereo Madness</b> (classic lol).
+After this achievement he jokingly "verified"
+<b>Stereo Madness</b>.
 </p>
 
 <p>
-Later he created his own level: <b>The Mimbo</b> <sup class="ref">[6]</sup>,
-a memory demon inspired by LIMBO.  
-18,000+ attempts, top HR 157 BPM, verified on stream February 15th, 2026.
+Later he created his own level called <b>The Mimbo</b>
+<sup class="ref">[6]</sup>, a memory demon inspired by LIMBO.
+It took him over 18,000 attempts with a top heart rate
+of 157 BPM. The level was verified live on stream on
+February 15th, 2026.
 </p>
 
 <p>
-He also completed several so-called “poopy levels.”
-His best one was <b>Poopy Shardscapes</b> <sup class="ref">[7]</sup>,
-taking around 3,000 attempts and a peak HR of 161 BPM.
+He also beat several so-called <i>"poopy levels"</i>.
+His best completion was <b>Poopy Shardscapes</b>
+<sup class="ref">[7]</sup>, which took around
+3,000 attempts with a top heart rate of 161 BPM.
 </p>
 
-<h1 id="references">References</h1>
+<h2>References</h2>
 
-<ol class="references">
+<ol>
+
 <li><a href="https://www.youtube.com/@lorenzo27k/" target="_blank">YouTube Channel</a></li>
-<li><a href="https://www.youtube.com/watch?v=ZJSHyQ-E0u4" target="_blank">FNaF Stream Clip</a></li>
-<li><a href="https://www.youtube.com/watch?v=KpqAkZX2sB4" target="_blank">Nine Circles</a></li>
-<li><a href="https://www.youtube.com/watch?v=dErdlCjm_Zc" target="_blank">Future Funk</a></li>
-<li><a href="https://www.youtube.com/watch?v=qBXaUmLurC4" target="_blank">Bloodbath</a></li>
-<li><a href="https://www.youtube.com/watch?v=4gRY0eId67M" target="_blank">The Mimbo</a></li>
+
+<li><a href="https://www.youtube.com/watch?v=ZJSHyQ-E0u4" target="_blank">FNaF Stream</a></li>
+
+<li><a href="https://www.youtube.com/watch?v=KpqAkZX2sB4" target="_blank">Nine Circles Completion</a></li>
+
+<li><a href="https://www.youtube.com/watch?v=dErdlCjm_Zc" target="_blank">Future Funk Completion</a></li>
+
+<li><a href="https://www.youtube.com/watch?v=qBXaUmLurC4" target="_blank">Bloodbath Completion</a></li>
+
+<li><a href="https://www.youtube.com/watch?v=4gRY0eId67M" target="_blank">The Mimbo Verification</a></li>
+
 <li><a href="https://www.youtube.com/watch?v=JtbWX7FZC_8" target="_blank">Poopy Shardscapes</a></li>
+
 </ol>
 
-<footer>SUBSCRIBE IF YOU SEE THIS</footer>
-
-</div>
 </div>
 
 </body>
