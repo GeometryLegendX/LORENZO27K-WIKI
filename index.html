@@ -5,98 +5,129 @@
 <title>Lorenzo27K Hub</title>
 
 <style>
+
 body{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:linear-gradient(180deg,#3bd1ff,#0059ff);
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+
+/* GD blue grid background */
+background-color:#2f7edb;
+background-image:
+linear-gradient(#2568b5 2px, transparent 2px),
+linear-gradient(90deg,#2568b5 2px, transparent 2px);
+background-size:80px 80px;
+
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
 }
 
-/* Main container */
+/* Hanging board */
+
+.board{
+
+background:#7a3f16;
+border:12px solid #43d14f;
+border-radius:10px;
+
+width:650px;
+height:260px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+box-shadow:
+0 10px 0 #2c9a36,
+0 0 0 6px black;
+}
+
+/* Menu buttons */
+
 .menu{
-    display:flex;
-    align-items:center;
-    gap:80px;
+display:flex;
+gap:60px;
 }
 
-/* GD Icon Button */
-.bigButton{
-    width:260px;
-    height:120px;
-    background:#ffaa00;
-    border:6px solid #000;
-    border-radius:20px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:32px;
-    font-weight:bold;
-    text-decoration:none;
-    color:black;
-    box-shadow:0 8px 0 #b56b00;
-    transition:0.12s;
+/* GD square button */
+
+.gdButton{
+
+width:100px;
+height:100px;
+
+background:#ffd800;
+border:6px solid black;
+border-radius:12px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:14px;
+font-weight:bold;
+text-align:center;
+
+cursor:pointer;
+
+box-shadow:0 6px 0 #c4a700;
+
+transition:0.12s;
 }
 
-.bigButton:hover{
-    transform:translateY(4px);
-    box-shadow:0 4px 0 #b56b00;
+.gdButton:hover{
+transform:translateY(4px);
+box-shadow:0 2px 0 #c4a700;
 }
 
-/* Side Panel */
-.side{
-    width:300px;
-    background:#ffe9a6;
-    border:5px solid black;
-    border-radius:12px;
-    padding:20px;
-    box-shadow:0 5px 0 #d4b574;
+/* button colors */
+
+.center{
+background:#00ff6a;
+box-shadow:0 6px 0 #17913d;
 }
 
-.side h2{
-    margin-top:0;
-    border-bottom:2px solid #000;
+.left{
+background:#ffd800;
 }
 
-.linkButton{
-    display:block;
-    background:#00ff6a;
-    border:4px solid black;
-    padding:12px;
-    margin-top:15px;
-    text-align:center;
-    text-decoration:none;
-    color:black;
-    font-weight:bold;
-    border-radius:10px;
-    box-shadow:0 5px 0 #17913d;
+.right{
+background:#ff9d00;
 }
 
-.linkButton:hover{
-    transform:translateY(3px);
-    box-shadow:0 3px 0 #17913d;
+.title{
+position:absolute;
+top:120px;
+font-size:30px;
+font-weight:bold;
+color:white;
+text-shadow:3px 3px black;
 }
+
 </style>
 </head>
 
 <body>
 
+<div class="title">LORENZO27K OFFICIAL WEBSITE</div>
+
+<div class="board">
+
 <div class="menu">
 
-<a class="bigButton" href="links.html">CONTENT</a>
+<a href="wiki.html" class="gdButton left">
+WIKI
+</a>
 
-<div class="side">
-<h2>Navigation</h2>
+<a href="links.html" class="gdButton center">
+CONTENT
+</a>
 
-<a class="linkButton" href="wiki.html">Wiki</a>
+<a href="about.html" class="gdButton right">
+ABOUT
+</a>
 
-<h2>About</h2>
-<p>
-This website is a fan-made hub dedicated to the Geometry Dash creator  
-<b>Lorenzo27K</b>. Check out his links, wiki, and achievements!
-</p>
 </div>
 
 </div>
