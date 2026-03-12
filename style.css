@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -7,15 +11,17 @@ body {
   background-size: cover;
   color: #222;
 
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+/* HEADER */
+
 header {
   background: #007515;
   color: white;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -23,14 +29,16 @@ header h1 {
   margin: 0;
 }
 
+/* NAV */
+
 nav {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 nav a {
   color: #ffd700;
   text-decoration: none;
-  margin: 0 15px;
+  margin: 0 10px;
   font-weight: bold;
 }
 
@@ -38,34 +46,36 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* MAIN */
+
 main {
+  flex: 1;
   max-width: 900px;
-  margin: 40px auto;
+  width: 90%;
+  margin: auto;
   background: rgb(0, 172, 0);
-  padding: 30px;
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 
-  flex: 1;
+  overflow: hidden;
 }
+
+/* IMAGE */
 
 img {
-  max-width: 50%;
+  max-width: 60%;
+  height: auto;
   border-radius: 8px;
-  align-self: center;
-  align-content: center;
-  padding-left: calc(50% - 150px);
-  scale: 1.3;
-  padding-top: 50px;
+  display: block;
+  margin: 20px auto;
 }
 
+/* FOOTER */
 
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   background: #007515;
   color: white;
-  margin-top: 1px;
-  
 }
-
