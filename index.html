@@ -2,135 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Lorenzo27K Hub</title>
-
-<style>
-
-body{
-margin:0;
-font-family:Arial, Helvetica, sans-serif;
-
-/* GD blue grid background */
-background-color:#2f7edb;
-background-image:
-linear-gradient(#2568b5 2px, transparent 2px),
-linear-gradient(90deg,#2568b5 2px, transparent 2px);
-background-size:80px 80px;
-
-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-}
-
-/* Hanging board */
-
-.board{
-
-background:#7a3f16;
-border:12px solid #43d14f;
-border-radius:10px;
-
-width:650px;
-height:260px;
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-box-shadow:
-0 10px 0 #2c9a36,
-0 0 0 6px black;
-}
-
-/* Menu buttons */
-
-.menu{
-display:flex;
-gap:60px;
-}
-
-/* GD square button */
-
-.gdButton{
-
-width:100px;
-height:100px;
-
-background:#ffd800;
-border:6px solid black;
-border-radius:12px;
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-font-size:14px;
-font-weight:bold;
-text-align:center;
-
-cursor:pointer;
-
-box-shadow:0 6px 0 #c4a700;
-
-transition:0.12s;
-}
-
-.gdButton:hover{
-transform:translateY(4px);
-box-shadow:0 2px 0 #c4a700;
-}
-
-/* button colors */
-
-.center{
-background:#00ff6a;
-box-shadow:0 6px 0 #17913d;
-}
-
-.left{
-background:#ffd800;
-}
-
-.right{
-background:#ff9d00;
-}
-
-.title{
-position:absolute;
-top:120px;
-font-size:30px;
-font-weight:bold;
-color:white;
-text-shadow:3px 3px black;
-}
-
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LORENZO27K - GD Menu</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<div class="title">LORENZO27K OFFICIAL WEBSITE</div>
-
-<div class="board">
-
-<div class="menu">
-
-<a href="wiki.html" class="gdButton left">
-WIKI
-</a>
-
-<a href="links.html" class="gdButton center">
-CONTENT
-</a>
-
-<a href="about.html" class="gdButton right">
-ABOUT
-</a>
-
-</div>
-
-</div>
-
+  <div class="menu">
+    <div class="menu-bg"></div>
+    <nav class="buttons">
+      <a href="index.html" class="button play"></a>
+      <a href="wiki.html" class="button wiki"></a>
+      <a href="links.html" class="button links"></a>
+      <a href="about.html" class="button about"></a>
+    </nav>
+  </div>
 </body>
 </html>
