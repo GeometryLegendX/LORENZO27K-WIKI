@@ -1,5 +1,5 @@
 // version.js
-const VERSION = "1.6";
+const VERSION = "2.41";
 
 document.addEventListener('DOMContentLoaded', () => {
   const el = document.getElementById("version");
