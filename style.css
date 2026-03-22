@@ -44,19 +44,18 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* MAIN */
 main {
   flex: 1;
   max-width: 900px;
   width: 90%;
-  margin: auto;
+  margin: 20px auto; /* changed */
   background: rgb(0, 172, 0);
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 
-  overflow: hidden;
-  margin-bottom: 60px; /* added so content not hidden */
+  overflow: visible; /* changed */
+  padding-bottom: 80px; /* important */
 }
 
 /* IMAGE */
